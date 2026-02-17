@@ -173,7 +173,7 @@ export function OrganizerView() {
     const showUpcoming = viewMode === 'upcoming' || viewMode === 'both'
 
     return (
-        <div className="max-w-2xl mx-auto px-6 py-8 flex flex-col h-full">
+        <div className="max-w-2xl mx-auto px-3 sm:px-6 py-4 sm:py-8 flex flex-col h-full">
 
             {/* Header */}
             <div className="flex items-start justify-between mb-5">

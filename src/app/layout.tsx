@@ -4,6 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Unload AI - Your brain wasn't built to hold all this",
   description: "AI-powered cognitive relief. Dump your mental chaos and get daily clarity.",
+  viewport: "width=device-width, initial-scale=1, viewport-fit=cover",
 };
 
 export default function RootLayout({

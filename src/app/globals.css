@@ -119,3 +119,8 @@
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-gray-300 dark:bg-gray-700;
 }
+
+/* iPhone safe area for bottom nav */
+.safe-area-pb {
+  padding-bottom: max(0.5rem, env(safe-area-inset-bottom));
+}
