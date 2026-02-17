@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Things 3 Concept Theme */
+    --background: 210 20% 96%; /* #F2F5F7 */
+    --foreground: 210 6% 20%; /* #303336 */
+
+    --card: 0 0% 100%; /* #FFFFFF */
+    --card-foreground: 210 6% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 6% 20%;
+
+    --primary: 211 100% 50%; /* #007AFF */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 20% 90%; /* Slightly darker than bg */
+    --secondary-foreground: 210 6% 20%;
+
+    --muted: 210 20% 96%;
+    --muted-foreground: 210 5% 60%;
+
+    --accent: 211 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 214 10% 88%; /* Subtle border */
+    --input: 214 10% 88%;
+    --ring: 211 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Semantic vars */
+    --sidebar-background: 210 20% 94%;
+    --sidebar-foreground: 210 5% 40%;
+    --sidebar-accent: 211 100% 50%;
+  }
+
+  .dark {
+    /* Sanctuary Dark Mode */
+    --background: 0 0% 0%;
+    /* #000000 */
+    --foreground: 0 0% 88%;
+    /* #E0E0E0 */
+
+    --card: 240 4% 11%;
+    --card-foreground: 0 0% 88%;
+
+    --popover: 240 4% 11%;
+    --popover-foreground: 0 0% 88%;
+
+    --primary: 211 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 240 4% 11%;
+    /* #1C1C1E */
+    --secondary-foreground: 0 0% 88%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 2% 61%;
+    /* #98989D */
+
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 88%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 211 100% 50%;
+
+    --sidebar-background: 240 4% 11%;
+    --sidebar-foreground: 240 2% 61%;
+    --sidebar-accent: 211 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground min-h-screen antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Smooth transitions */
+.transition-smooth {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Focus styles */
+.focus-ring {
+  @apply focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-200 dark:bg-gray-800 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-300 dark:bg-gray-700;
+}
