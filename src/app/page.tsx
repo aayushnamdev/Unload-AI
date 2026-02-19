@@ -36,7 +36,7 @@ export default function Home() {
                 Get Started Free
               </Button>
             </Link>
-            <a href="https://pump.fun/board" target="_blank" rel="noopener noreferrer">
+            <a href="https://pump.fun/coin/DeHPvEBotsLezzFaL65QCzpcH78AFaD9J6aobExTpump" target="_blank" rel="noopener noreferrer">
               <Button size="xl" className="rounded-full px-12 py-7 text-lg font-medium bg-[#10B981] hover:bg-[#059669] text-white shadow-xl shadow-green-600/20 transition-transform hover:scale-105">
                 Buy on pump.fun
               </Button>
