@@ -265,8 +265,8 @@ export default function Home() {
                 Twitter
               </a>
               {/* Placeholder for Solana Contract */}
-              <span className="px-3 py-1 rounded-full bg-slate-100 text-slate-400 font-mono text-xs border border-slate-200 cursor-not-allowed" title="Contract Address coming soon">
-                CA: Soon...
+              <span className="px-3 py-1 rounded-full bg-slate-100 text-slate-500 font-mono text-xs border border-slate-200 select-all" title="Click to copy">
+                CA: DeHPvEBotsLezzFaL65QCzpcH78AFaD9J6aobExTpump
               </span>
             </div>
           </div>
