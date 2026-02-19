@@ -208,7 +208,7 @@ export default function Home() {
                   <div className="font-bold text-slate-900">Phase 1: Genesis</div>
                   <time className="font-caveat font-medium text-blue-500">Completed</time>
                 </div>
-                <div className="text-slate-500 text-sm">Concept validation, MVP development, branding identity "Unload AI", and core voice-to-text engine.</div>
+                <div className="text-slate-500 text-sm">Concept validation, MVP development, branding identity &quot;Unload AI&quot;, and core voice-to-text engine.</div>
               </div>
             </div>
 
