@@ -261,7 +261,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-8">
             <div className="font-bold text-xl tracking-tight text-slate-800">Unload AI</div>
             <div className="flex items-center gap-6">
-              <a href="https://x.com/aayush22namdev" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors">
+              <a href="https://x.com/TJ_Reborn2" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors">
                 Twitter
               </a>
               {/* Placeholder for Solana Contract */}
